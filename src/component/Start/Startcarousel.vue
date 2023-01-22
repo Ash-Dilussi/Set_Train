@@ -31,21 +31,21 @@
     <div class="carousel-inner relative w-full overflow-hidden">
       <div class="carousel-item active float-left w-full">
         <img
-          src="https://images.unsplash.com/photo-1612083111232-29f08821e47a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          src="public\tharoushan-kandarajah-KtDXt7DyfVM-unsplash.jpg"
           class="block w-full"
           alt="Wild Landscape"
         />
       </div>
       <div class="carousel-item float-left w-full">
         <img
-          src=" https://images.unsplash.com/photo-1543967625-f24827a5fdb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhaWx3YXl8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+          src="public\pexels-esrageziyor-11490118.jpg"
           class="block w-full"
           alt="Camera"
         />
       </div>
       <div class="carousel-item float-left w-full">
         <img
-          src="https://images.unsplash.com/photo-1589392764091-2aaa3afe42df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          src="public\gemmmm-BS8a67PahbM-unsplash.jpg"
           class="block w-full"
           alt="Exotic Fruits"
         />
