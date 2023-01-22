@@ -2,7 +2,9 @@
 <template>
 <!-- <StartView /> -->
 <!-- <Menuv /> -->
-<SearchTrain />
+<!-- <SearchTrain /> -->
+
+<Book />
 
 </template>
 
@@ -13,6 +15,7 @@
 import StartView from './views/Getstart.vue';
 import Menuv from './views/Menuv.vue';
 import SearchTrain from './views/SearchTrain.vue';
+import Book from './views/BookTrain.vue';
 </script>
 
 

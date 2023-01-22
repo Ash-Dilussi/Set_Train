@@ -2,11 +2,14 @@
 
 
 
-  <div class="bg-gradient-to-br from-blue-400 via-yellow-200 to-indigo-500">
+  <div class="bg-repeat bg-gradient-to-b from-yellow-200 via-green-200 to-purple-300">
+    <Navbar />
     <br />
     <br />
     <br />
-    <p class="text-4  xl text-center">Search Train</p>
+    <br />
+    <br />
+    <p class="text-4xl text-center">Search Train</p>
     <br />
 
     <p class="text-gray-700 my-2 text-center">From</p>
@@ -45,6 +48,12 @@
   >Search Train</button>
 </div>
     <br />
+    <br />
+    <br />
+    <br />
+    <br />  <br />
+    <br />  <br />
+    <br />
   </div>
 
 
@@ -54,6 +63,7 @@
 <script setup>
 import From from "../component/Search/Location.vue";
 import Date from "../component/Search/Date.vue";
+import Navbar from '../component/NavBar.vue';
 </script>
 
 <style scoped></style>
