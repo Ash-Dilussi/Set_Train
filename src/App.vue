@@ -1,9 +1,15 @@
 <template>
+  <div>
+    <!-- <NavBar/> -->
+    <!-- <router-link :to="{name: 'Team'}">Team</router-link> -->
   <!-- <StartView /> -->
   <!-- <Menuv /> -->
   <!-- <SearchTrain /> -->
   <!-- <Book /> -->
-  <Team />
+  <!-- <Team /> -->
+</div>
+
+<router-view/>
 </template>
 
 <script setup>
@@ -12,6 +18,7 @@ import Menuv from "./views/Menuv.vue";
 import SearchTrain from "./views/SearchTrain.vue";
 import Book from "./views/BookTrain.vue";
 import Team from './views/Team.vue';
+import NavBar from "./component/NavBar.vue";
 </script>
 
 <style scoped></style>

@@ -26,8 +26,8 @@
               <a
                 href="#"
                 class="font-medium text-lg text-indigo-600 hover:text-indigo-500"
-              >
-                View <span class="sr-only"> {{ item.name }} stats</span></a
+              ><router-link :to="{name: item.routename }">
+              View</router-link> <span class="sr-only"> {{ item.name }} </span></a
               >
             </div>
           </div>
@@ -51,7 +51,7 @@ const stats = [
   {
     id: 1,
     name: "Search Train",
-    stat: "71,897",
+    routename:"Search",
     icon: UsersIcon,
     change: "122",
     changeType: "increase",
@@ -59,7 +59,7 @@ const stats = [
   {
     id: 2,
     name: "Track Train",
-    stat: "58.16%",
+    routename:"Search",
     icon: EnvelopeOpenIcon,
     change: "5.4%",
     changeType: "increase",
@@ -67,8 +67,8 @@ const stats = [
   {
     id: 3,
     name: "Book Train",
-    stat: "24.57%",
     icon: CursorArrowRaysIcon,
+    routename:"Book",
     change: "3.2%",
     changeType: "decrease",
   },

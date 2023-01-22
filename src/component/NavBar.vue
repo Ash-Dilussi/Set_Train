@@ -1,4 +1,5 @@
 <template>
+  <div>
   <Disclosure as="nav" class="bg-gray-800" v-slot="{ open }">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
@@ -18,7 +19,7 @@
           <div class="flex flex-shrink-0 items-center">
             <img
               class="block h-10 w-auto lg:hidden rounded-full"
-              src="public\c2train.png"
+              src="public\c2train-rounded.png"
               alt="Your Company"
             />
             <img
@@ -27,12 +28,13 @@
               alt="Your Company"
             />
           </div>
+          
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
-              <a
+              
+              <sapn
                 v-for="item in navigation"
                 :key="item.name"
-                :href="item.href"
                 :class="[
                   item.current
                     ? 'bg-gray-900 text-white'
@@ -40,11 +42,13 @@
                   'px-3 py-2 rounded-md text-sm font-medium',
                 ]"
                 :aria-current="item.current ? 'page' : undefined"
-                >{{ item.name }}</a
-              >
+                >
+               {{ item.name }}</sapn>
+              
             </div>
           </div>
         </div>
+      
         <div
           class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
         >
@@ -118,6 +122,7 @@
       </div>
     </div>
 
+
     <DisclosurePanel class="sm:hidden">
       <div class="space-y-1 px-2 pt-2 pb-3">
         <DisclosureButton
@@ -132,11 +137,12 @@
             'block px-3 py-2 rounded-md text-base font-medium',
           ]"
           :aria-current="item.current ? 'page' : undefined"
-          >{{ item.name }}</DisclosureButton
+          ><router-link :to="{name: item.routename }">{{ item.name }}</router-link></DisclosureButton
         >
       </div>
     </DisclosurePanel>
   </Disclosure>
+  </div>
 </template>
 
 <script setup>
@@ -152,10 +158,10 @@ import {
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 const navigation = [
-  { name: "Main Select", href: "#", current: true },
-  { name: "Book Reservations", href: "#", current: false },
-  { name: "Share your Train", href: "#", current: false },
-  { name: "Our Team", href: "#", current: false },
-  { name: "About", href: "#", current: false },
+  { name: "Main Select", href: "#",routename:"Menu", current: true },
+  { name: "Book Reservations", href: "#",routename:"Book", current: false },
+  { name: "Share your Train", href: "#", routename:"Search", current: false },
+  { name: "Our Team", href: "#", routename:"Team", current: false },
+  { name: "About", href: "#", routename:"Start", current: false },
 ];
 </script>
