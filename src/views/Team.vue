@@ -100,14 +100,14 @@ const people = [
     name: "S N Jayasinghe",
     role: "Computer Enginnering",
     index: "D - BSE - 21 - 0007",
-    imageUrl: "public/DPs/cimage0-01.png",
+    imageUrl: "public/DPs/WhatsApp Image 2023-01-22 at 19.14.41.jpg",
     mailURL: "38-bse-0007",
   },
   {
     name: "J G D A R Shanilka",
     role: "Computer Enginnering",
     index: "D - BCS - 21 - 0008",
-    imageUrl: "public/DPs/cimage0-01.png",
+    imageUrl: "public/DPs/2023-01-22 at 19.18.56.jpg",
     mailURL: "38-bcs-0008",
   },
 ];
