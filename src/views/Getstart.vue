@@ -1,21 +1,11 @@
-
 <template>
-    <StartCarousel />
-    <StartContainer  />
-    </template>
-    
-    
-    
-    <script setup>
-    
-import StartCarousel from '../component/Start/Startcarousel.vue';
-import StartContainer from '../component/Start/Startcontainer.vue';
+  <StartCarousel />
+  <StartContainer />
+</template>
 
-    </script>
-    
-    
-    
-    <style scoped>
-    
-    </style>
-    
+<script setup>
+import StartCarousel from "../component/Start/Startcarousel.vue";
+import StartContainer from "../component/Start/Startcontainer.vue";
+</script>
+
+<style scoped></style>

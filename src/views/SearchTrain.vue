@@ -1,8 +1,7 @@
-<template  >
-
-
-
-  <div class="bg-repeat bg-gradient-to-b from-yellow-200 via-green-200 to-purple-300">
+<template>
+  <div
+    class="bg-repeat bg-gradient-to-b from-yellow-200 via-green-200 to-purple-300"
+  >
     <Navbar />
     <br />
     <br />
@@ -39,31 +38,32 @@
     <br />
     <br />
     <Date />
-   <div class="text-center my-7">
-    <button
-    type="button"
-    data-mdb-ripple="true"
-    data-mdb-ripple-color="light"
-    class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-  >Search Train</button>
-</div>
+    <div class="text-center my-7">
+      <button
+        type="button"
+        data-mdb-ripple="true"
+        data-mdb-ripple-color="light"
+        class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+      >
+        Search Train
+      </button>
+    </div>
     <br />
     <br />
     <br />
     <br />
-    <br />  <br />
-    <br />  <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <br />
   </div>
-
-
-
 </template>
 
 <script setup>
 import From from "../component/Search/Location.vue";
 import Date from "../component/Search/Date.vue";
-import Navbar from '../component/NavBar.vue';
+import Navbar from "../component/NavBar.vue";
 </script>
 
 <style scoped></style>
