@@ -8,8 +8,8 @@
     
     <script setup>
     
-import StartCarousel from '../component/Startcarousel.vue';
-import StartContainer from '../component/Startcontainer.vue';
+import StartCarousel from '../component/Start/Startcarousel.vue';
+import StartContainer from '../component/Start/Startcontainer.vue';
 
     </script>
     

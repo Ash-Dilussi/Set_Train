@@ -9,7 +9,7 @@
             <div class="absolute rounded-md bg-indigo-500 p-3">
               <component :is="item.icon" class="h-6 w-6 text-white" aria-hidden="true" />
             </div>
-            <p class="ml-16  truncate text-2xl font-semibold text-gray-900">{{ item.name }}</p>
+            <p class="ml-6  truncate text-2xl font-semibold text-gray-900">{{ item.name }}</p>
           </dt>
           <dd class="ml-16 flex items-baseline pb-6 sm:pb-7">
     
@@ -25,6 +25,12 @@
         </div>
       </dl>
     </div>
+
+
+    <div class="flex space-x-2 justify-center">
+
+</div>
+
   </template>
   
   <script setup>
@@ -32,7 +38,7 @@
   import { CursorArrowRaysIcon, EnvelopeOpenIcon, UsersIcon } from '@heroicons/vue/24/outline'
   
   const stats = [
-    { id: 1, name: 'Train Schedule', stat: '71,897', icon: UsersIcon, change: '122', changeType: 'increase' },
+    { id: 1, name: 'Search Train', stat: '71,897', icon: UsersIcon, change: '122', changeType: 'increase' },
     { id: 2, name: 'Track Train', stat: '58.16%', icon: EnvelopeOpenIcon, change: '5.4%', changeType: 'increase' },
     { id: 3, name: 'Book Train', stat: '24.57%', icon: CursorArrowRaysIcon, change: '3.2%', changeType: 'decrease' },
   ]
